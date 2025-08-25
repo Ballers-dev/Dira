@@ -1,0 +1,107 @@
+Prompt for Replit: Generate and Organize Website Content for Daira, Public Health Policy and Practice
+
+Update my static website for "Daira, Public Health Policy and Practice" to present the firm as an institutionally positioned, Canada-based public health consultancy serving governments, development agencies, and multilateral partners. Edit and refine the content, tabs, and section headings according to these precise specifications:
+
+Website Tabs & Structure:
+
+Home
+
+About
+
+Expertise
+
+Services
+
+Contact
+
+Content Guidance for Each Page:
+
+Home
+
+Heading: "Daira, Public Health Policy and Practice"
+
+Subheading: "Advancing Health Equity. Strengthening Systems. Realising Universal Health."
+
+Concise introduction to Daira as an independent consultancy driving evidence-based solutions for health systems worldwide.
+
+One-sentence highlight of core principles: integrity, collaboration, and excellence.
+
+Featured: Rotating carousel or static section for thought leadership articles, case studies, or client partnerships (use placeholders if launching before content is ready).
+
+Prominent "Contact Us for Consulting" call-to-action button.
+
+About
+
+Heading: "About Daira"
+
+Overview of the firm’s mission: advancing equitable, resilient, and sustainable health systems globally.
+
+Institutional tone—focus on Daira as an expert-led team with global reach and multidisciplinary know-how.
+
+Section: "Our Values"—bullet points highlighting evidence-driven, partnership-oriented, and results-focused ethos.
+
+Expertise
+
+Heading: "Expertise"
+
+Bullet or grid format summarizing distinct strengths:
+
+Health policy analysis and design
+
+Health systems assessment and strengthening
+
+Public health security and emergency preparedness
+
+Primary Health Care (PHC) and Universal Health Coverage (UHC) reform
+
+Strategic communications, advocacy, and stakeholder partnerships
+
+Capacity building, training, and knowledge management
+
+Multi-sectoral collaboration (including linkages with SDGs)
+
+One-paragraph introduction on Daira’s multidisciplinary and globally recognized approach.
+
+Services
+
+Heading: "Our Services"
+
+List each consulting service:
+
+Policy Analysis & Strategy – 2–3 sentence summary focused on actionable, context-specific policy support.
+
+Systems Assessment & Planning – Focus on operational and program implementation support, monitoring, and evaluation.
+
+Health Security & Emergency Response – Preparedness planning, rapid response, and resilience solutions.
+
+PHC & UHC Solutions – End-to-end technical and advisory support for integrated care and health access.
+
+Communications & Advocacy – Stakeholder engagement, message development, and knowledge translation.
+
+Capacity Building – Training, mentorship, technical assistance, and organizational development.
+
+Each service should feature a clear "Inquire" or "Contact" button.
+
+Contact
+
+Heading: "Get in Touch"
+
+Simple and accessible contact form: fields for name, email, message (no backend required, just form design).
+
+Business email, registered address (Regina, Saskatchewan or as needed), and LinkedIn as clickable links.
+
+Optionally, embed map of Regina, Saskatchewan.
+
+Footer: Copyright © 2025 Daira, Public Health Policy and Practice. List email and basic business/legal registration details in small print.
+
+General Instructions:
+
+Use headings and subheadings that reflect institutional focus, not an individual bio.
+
+Edit content to be in the third person, positioning Daira as the speaking voice (not Dr. Anis Kazi individually).
+
+Maintain a professional, clear, and modern tone in all content.
+
+Ensure all code and sections are cleanly commented and organized for static file use (HTML5/CSS3, with minimal vanilla JS as needed).
+
+Return all generated content as ready-to-paste HTML for each named page (e.g., index.html, about.html, expertise.html, services.html, contact.html), matching this structure and guidance.

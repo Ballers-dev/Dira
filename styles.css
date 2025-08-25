@@ -270,6 +270,52 @@ a:hover {
     padding: 80px 0;
 }
 
+.values-section {
+    margin-bottom: 3rem;
+}
+
+.values-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.value-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.value-item h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.approach-item {
+    margin-bottom: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.approach-item strong {
+    display: block;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+}
+
+.partners-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.partners-info li {
+    padding: 0.5rem 0;
+    color: #555;
+    border-bottom: 1px solid #e9ecef;
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -350,6 +396,159 @@ a:hover {
     padding: 0.5rem 0;
     color: #555;
     border-bottom: 1px solid #e9ecef;
+}
+
+/* Leadership Page */
+.leadership-content {
+    padding: 80px 0;
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.leadership-intro,
+.founder-profile,
+.detailed-profile {
+    margin-bottom: 3rem;
+}
+
+.founder-credentials {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.founder-credentials h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.founder-credentials ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.founder-credentials li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e9ecef;
+    color: #555;
+}
+
+.founder-credentials li:before {
+    content: '✓';
+    color: #27ae60;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.profile-link {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.leadership-sidebar {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.leadership-highlights,
+.organizational-approach {
+    margin-bottom: 2rem;
+}
+
+.leadership-highlights ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.leadership-highlights li {
+    padding: 0.5rem 0;
+    color: #555;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Expertise Page */
+.expertise-intro {
+    padding: 60px 0;
+}
+
+.expertise-areas {
+    padding: 60px 0;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.expertise-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #27ae60;
+}
+
+.expertise-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.expertise-icon {
+    color: #27ae60;
+    margin-bottom: 1.5rem;
+}
+
+.expertise-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.expertise-card p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.expertise-approach {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.approach-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.approach-pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.pillar {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.pillar h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
 }
 
 /* Services Page */
@@ -591,6 +790,25 @@ a:hover {
     .about-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .leadership-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .expertise-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .approach-pillars {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .values-content {
+        gap: 1.5rem;
     }
 
     .contact-grid {

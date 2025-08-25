@@ -1,0 +1,39 @@
+Update my static website for “Daira, Public Health Policy and Practice” by including a dedicated navigation tab and page for “Leadership” (or “Founder”). Edit the navigation and content as follows:
+
+Instructions:
+
+Navigation Menu
+
+Add a new tab labeled “Leadership” (or “Founder”) to the main navigation bar.
+
+Ensure this tab appears after “About” and before “Expertise” or “Services.”
+
+Leadership Page Content
+
+Page heading: “Leadership” (or “Founder”)
+
+Introduction in third person, e.g.:
+“Daira, Public Health Policy and Practice, is steered by globally recognized leadership dedicated to advancing health system transformation and equity. Our founder brings senior technical and strategic experience from international, national, and sub-national levels.”
+
+Concise profile summary, focusing only on credentials, expertise, and role at Daira (do NOT copy an entire CV). Example:
+“Daira benefits from the leadership of its founder, a seasoned public health specialist with 16+ years’ experience in health systems, health security, PHC, and UHC. The founder has held leadership, technical, and operational roles with UN agencies, governments, and global partners, and is recognized for driving results across policy, strategy, and program design.”
+
+Final line or section (clearly presented):
+“For the founder’s detailed profile and professional achievements, visit www.aniskazi.com”
+(Make the URL a prominent clickable link, set to open in a new tab.)
+
+Present all content in a neutral, institutional tone, as from the organization (not first person).
+
+Use clear headings, moderate whitespace, professional font, and a layout consistent with the rest of the site.
+
+General Instructions
+
+Update navigation in all static pages (index.html, about.html, etc.) to include the new “Leadership” tab.
+
+Integrate the new page so users can easily return to other parts of the site.
+
+Ensure all code for the new page and navigation is clean and well-commented.
+
+If sample content or a founder’s image is included, use a professional placeholder with alt text and appropriate styling—do not use personal or biographical text beyond what’s described.
+
+Return the complete HTML/CSS code for the new page and the updated navigation, ready for direct use in a static site.
