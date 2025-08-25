@@ -1,0 +1,76 @@
+Create a static informational website (HTML + CSS, minimal JavaScript if necessary—no frameworks) for my registered Canadian public health consultancy, “Daira, Public Health Policy and Practice”. The site must reflect the professional and clean style of www.aniskazi.com, with strong whitespace, crisp typography, and evidence-based presentation.
+
+Requirements
+
+Branding & Tone
+
+Site name “Daira, Public Health Policy and Practice” must be clear in header/page titles.
+
+Use a subtle, modern palette (whites, light neutrals, soft blues or greens).
+
+Maintain wide margins, ample padding, and plenty of whitespace.
+
+All fonts should be professional and accessible (e.g., Lato, Roboto, or similar), with strong legibility for main text and headers.
+
+Decorative elements should be minimal—focus on simple lines, subtle separators, and clear section layouts.
+
+Navigation
+
+Top navigation bar with links to: Home, About, Services, Contact.
+
+Sticky nav preferred.
+
+Menu adapts for mobile (responsive burger menu or simple collapse).
+
+Homepage
+
+Strong yet concise intro to Daira’s mission and focus in public health consulting.
+
+Single highlight call to action (“Contact for Consulting today”).
+
+Section for featured media/content (can use placeholder thumbnails/links and short descriptions).
+
+Clean hero layout with plenty of space.
+
+About Page
+
+Brief company description/background.
+
+Profile of Dr. Anis Kazi, credentials (from CV), 2–3 short paragraphs plus a simple bullet summary of qualifications.
+
+Subtle, tasteful contact info in a sidebar or footer.
+
+Services Page
+
+Bulleted or grid list of core consulting services: policy analysis, health systems assessment, health communications, and so forth.
+
+1–2 sentence summary for each service.
+
+Each service with "Inquire" button that links to contact form.
+
+Contact Page
+
+Simple, clean contact form (fields: name, email, message—no backend required, just layout).
+
+List business email, company address (optional), and LinkedIn profile as clickable links.
+
+Optionally, add a map embed for Regina, Saskatchewan.
+
+Footer (on all pages)
+
+Copyright line (“© 2025 Daira, Public Health Policy and Practice”)
+
+Contact email and basic legal/business registration details in small print.
+
+Technical
+
+All code should be organized and commented.
+
+Mobile-responsive: Column stacking, nav compresses, buttons enlarge, fonts stay legible on all screens.
+
+Absolutely no frameworks; use HTML5, CSS3, and very limited vanilla JS only if needed for mobile nav.
+
+Output as ready-to-paste code files (organized as index.html, about.html, services.html, contact.html, style.css, etc.).
+
+Request to the Assistant:
+Please generate the full codebase (HTML and CSS, and JavaScript if strictly necessary) for all pages, including sample/placeholder content as described. The code should be clean and easy to adapt and should run seamlessly as a static site on Replit or any standard web host.
