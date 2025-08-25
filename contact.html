@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Daira, Public Health Policy and Practice</title>
+    <meta name="description" content="Contact Daira Public Health Policy and Practice for professional consulting services in public health policy, systems assessment, and health communications.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Daira</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="page-subtitle">Get in touch to discuss your public health consulting needs</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <div class="contact-form-section">
+                        <h2>Send us a message</h2>
+                        <p>
+                            We'd love to hear about your public health consulting needs. Please fill out 
+                            the form below and we'll get back to you as soon as possible.
+                        </p>
+                        
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="organization">Organization (Optional)</label>
+                                <input type="text" id="organization" name="organization">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service of Interest</label>
+                                <select id="service" name="service">
+                                    <option value="">Please select a service</option>
+                                    <option value="policy-analysis">Public Health Policy Analysis</option>
+                                    <option value="health-systems">Health Systems Assessment</option>
+                                    <option value="communications">Health Communications</option>
+                                    <option value="program-development">Program Development & Evaluation</option>
+                                    <option value="stakeholder-engagement">Stakeholder Engagement</option>
+                                    <option value="data-analysis">Data Analysis & Research</option>
+                                    <option value="capacity-building">Capacity Building & Training</option>
+                                    <option value="strategic-planning">Strategic Planning</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please describe your consulting needs or any questions you may have..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-section">
+                        <div class="contact-details">
+                            <h2>Contact Information</h2>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>Email</strong>
+                                    <a href="mailto:info@dairahealth.ca">info@dairahealth.ca</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>Location</strong>
+                                    <span>Regina, Saskatchewan, Canada</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>LinkedIn</strong>
+                                    <a href="https://www.linkedin.com/in/aniskazi" target="_blank" rel="noopener">Dr. Anis Kazi</a>
+                                </div>
+                            </div>
+
+                            <div class="business-info">
+                                <h3>Business Information</h3>
+                                <p>
+                                    Daira, Public Health Policy and Practice is a registered Canadian public health 
+                                    consultancy specializing in evidence-based policy analysis and health systems 
+                                    improvement.
+                                </p>
+                                <p>
+                                    <strong>Registration:</strong> Professional Consultancy<br>
+                                    <strong>Location:</strong> Regina, Saskatchewan, Canada
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="map-section">
+                            <h3>Our Location</h3>
+                            <div class="map-container">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320236.94419199344!2d-104.82264067968744!3d50.44496804230088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x531c1e40fba53deb%3A0x354a3296b77b54b1!2sRegina%2C%20SK%2C%20Canada!5e0!3m2!1sen!2sus!4v1704067200000!5m2!1sen!2sus" 
+                                    width="100%" 
+                                    height="250" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Daira, Public Health Policy and Practice</p>
+                    <p>Professional Public Health Consultancy • Regina, Saskatchewan</p>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact: <a href="mailto:info@dairahealth.ca">info@dairahealth.ca</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
