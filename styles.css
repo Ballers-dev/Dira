@@ -171,6 +171,13 @@ a:hover {
     font-weight: 300;
 }
 
+.hero-company-name {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
 .hero-subtitle {
     font-size: 1.5rem;
     color: #2E8B7A;
@@ -791,6 +798,10 @@ a:hover {
 
     .hero h1 {
         font-size: 2rem;
+    }
+
+    .hero-company-name {
+        font-size: 1rem;
     }
 
     .hero-subtitle {
