@@ -70,13 +70,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const message = formData.get('message');
             
             // Basic validation
-            if (!name || !email || !message) {
-                alert('Please fill in all required fields.');
+            if (!name || name.trim().length < 2) {
+                alert('Please enter a valid name (at least 2 characters).');
                 return;
             }
             
-            if (!isValidEmail(email)) {
+            if (!email || !isValidEmail(email)) {
                 alert('Please enter a valid email address.');
+                return;
+            }
+            
+            if (!message || message.trim().length < 10) {
+                alert('Please enter a message (at least 10 characters).');
                 return;
             }
             
