@@ -1,0 +1,27 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main circular element representing unity/wholeness -->
+  <circle cx="40" cy="40" r="28" fill="none" stroke="#2E8B7A" stroke-width="2"/>
+  
+  <!-- Inner connected dots representing knowledge networks -->
+  <circle cx="32" cy="32" r="2.5" fill="#2E8B7A"/>
+  <circle cx="48" cy="32" r="2.5" fill="#3498DB"/>
+  <circle cx="40" cy="45" r="2.5" fill="#2E8B7A"/>
+  <circle cx="25" cy="45" r="2" fill="#3498DB"/>
+  <circle cx="55" cy="45" r="2" fill="#2E8B7A"/>
+  
+  <!-- Connecting lines representing collaboration -->
+  <line x1="32" y1="32" x2="48" y2="32" stroke="#E8F4F8" stroke-width="1.5"/>
+  <line x1="32" y1="32" x2="40" y2="45" stroke="#E8F4F8" stroke-width="1.5"/>
+  <line x1="48" y1="32" x2="40" y2="45" stroke="#E8F4F8" stroke-width="1.5"/>
+  <line x1="25" y1="45" x2="40" y2="45" stroke="#E8F4F8" stroke-width="1.5"/>
+  <line x1="40" y1="45" x2="55" y2="45" stroke="#E8F4F8" stroke-width="1.5"/>
+  
+  <!-- Company name -->
+  <text x="85" y="28" font-family="Lato, sans-serif" font-size="20" font-weight="700" fill="#2C3E50">DAIRA</text>
+  
+  <!-- Tagline -->
+  <text x="85" y="44" font-family="Lato, sans-serif" font-size="9" font-weight="400" fill="#5A6C7D">Public Health Policy and Practice</text>
+  
+  <!-- Subtle accent line -->
+  <line x1="85" y1="50" x2="190" y2="50" stroke="#2E8B7A" stroke-width="1"/>
+</svg>
