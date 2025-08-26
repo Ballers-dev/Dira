@@ -68,7 +68,7 @@ a:hover {
 
 /* Logo Styling */
 .logo {
-    height: 45px;
+    height: 60px;
     width: auto;
     transition: transform 0.3s ease;
 }
@@ -95,7 +95,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
 }
 
 .nav-logo a {
@@ -155,7 +155,7 @@ a:hover {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    padding: 140px 0 100px;
+    padding: 150px 0 100px;
     text-align: center;
 }
 
@@ -221,7 +221,7 @@ a:hover {
 /* Page Sections */
 .page-header {
     background-color: #f8f9fa;
-    padding: 120px 0 60px;
+    padding: 130px 0 60px;
     text-align: center;
 }
 
@@ -758,13 +758,13 @@ a:hover {
     }
     
     .logo {
-        height: 35px;
+        height: 45px;
     }
     
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 80px;
         flex-direction: column;
         background-color: white;
         width: 100%;
