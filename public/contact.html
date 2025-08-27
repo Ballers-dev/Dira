@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <title>Contact - Daira, Public Health Policy and Practice</title>
+    <meta name="description" content="Contact Daira Public Health Policy and Practice for professional consulting and advisory services in public health policy, systems assessment, and health communications.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Daira Public Health Policy and Practice" class="logo">
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leadership.html" class="nav-link">Leadership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="expertise.html" class="nav-link">Expertise</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p class="page-subtitle">Get in touch to discuss your public health consulting and advisory needs</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <div class="contact-form-section">
+                        <h2>Send us a message</h2>
+                        <p>
+                            We'd love to hear about your public health consulting and advisory needs. Please fill out 
+                            the form below and we'll get back to you as soon as possible.
+                        </p>
+                        
+                        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="organization">Organization (Optional)</label>
+                                <input type="text" id="organization" name="organization">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service of Interest</label>
+                                <select id="service" name="service">
+                                    <option value="">Please select a service</option>
+                                    <option value="policy-analysis">Public Health Policy Analysis</option>
+                                    <option value="health-systems">Health Systems Assessment</option>
+                                    <option value="communications">Health Communications</option>
+                                    <option value="program-development">Program Development & Evaluation</option>
+                                    <option value="stakeholder-engagement">Stakeholder Engagement</option>
+                                    <option value="data-analysis">Data Analysis & Research</option>
+                                    <option value="capacity-building">Capacity Building & Training</option>
+                                    <option value="strategic-planning">Strategic Planning</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please describe your consulting and advisory needs or any questions you may have..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-section">
+                        <div class="contact-details">
+                            <h2>Contact Information</h2>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>Location</strong>
+                                    <span>Worldwide</span>
+                                </div>
+                            </div>
+
+
+                            <div class="business-info">
+                                <h3>Business Information</h3>
+                                <p>
+                                    Daira, Public Health Policy and Practice is a registered Canadian public health 
+                                    consulting and advisory service specializing in evidence-based policy analysis and health systems 
+                                    improvement.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Daira, Public Health Policy and Practice</p>
+                </div>
+                <div class="footer-contact">
+                    <p>Worldwide public health consulting and advisory services</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

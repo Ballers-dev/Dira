@@ -1,0 +1,22 @@
+# Cache and temporary directories
+.cache/
+.tmp/
+tmp/
+
+# Development files
+replit.md
+attached_assets/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Large files that shouldn't be deployed
+node_modules/
+__pycache__/
