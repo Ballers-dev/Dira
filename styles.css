@@ -647,6 +647,18 @@ a:hover {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
+.google-form-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.google-form-container iframe {
+    border-radius: 8px;
+}
+
 .form-group {
     margin-bottom: 1.5rem;
 }
