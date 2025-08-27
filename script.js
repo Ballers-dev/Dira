@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Form handling (basic client-side validation)
+    // Form handling with Formspree integration
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
@@ -85,11 +85,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Show success message (in a real application, this would submit to a server)
-            alert('Thank you for your message! We will get back to you soon.');
+            // Show loading state
+            const submitButton = this.querySelector('.submit-button');
+            const originalText = submitButton.textContent;
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
             
-            // Reset form
-            this.reset();
+            // Submit to Formspree
+            fetch(this.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    alert('Thank you for your message! We will get back to you soon.');
+                    this.reset();
+                } else {
+                    alert('There was a problem sending your message. Please try again.');
+                }
+            }).catch(error => {
+                alert('There was a problem sending your message. Please try again.');
+            }).finally(() => {
+                // Reset button
+                submitButton.textContent = originalText;
+                submitButton.disabled = false;
+            });
         });
     }
 
