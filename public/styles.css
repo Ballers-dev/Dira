@@ -225,6 +225,10 @@ a:hover {
     text-align: center;
 }
 
+.page-header .container {
+    max-width: 600px;
+}
+
 .page-subtitle {
     font-size: 1.2rem;
     color: #666;
@@ -634,9 +638,8 @@ a:hover {
 }
 
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
     align-items: start;
 }
 
@@ -681,6 +684,8 @@ a:hover {
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
+    text-align: center;
+    max-width: 600px;
 }
 
 .contact-item {
@@ -708,6 +713,7 @@ a:hover {
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid #e9ecef;
+    text-align: center;
 }
 
 .map-container {
