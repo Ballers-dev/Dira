@@ -225,6 +225,10 @@ a:hover {
     text-align: center;
 }
 
+.page-header .container {
+    max-width: 600px;
+}
+
 .page-subtitle {
     font-size: 1.2rem;
     color: #666;
