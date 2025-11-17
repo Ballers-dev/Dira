@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://dairahealth.com/sitemap.xml
-
-# Optimized for search engines
-Crawl-delay: 1
