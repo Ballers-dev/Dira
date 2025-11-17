@@ -696,7 +696,7 @@ a:hover {
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: start;
     max-width: 600px;
 }
 
@@ -713,6 +713,23 @@ a:hover {
     color: #2E8B7A;
     margin-right: 1rem;
     margin-top: 0.25rem;
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-icon svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-icon-link {
@@ -730,10 +747,18 @@ a:hover {
     transition: all 0.3s ease;
 }
 
+.contact-text {
+    flex: 1;
+    min-width: 0;
+}
+
 .contact-text strong {
     display: block;
     color: #2c3e50;
     margin-bottom: 0.25rem;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .business-info {
